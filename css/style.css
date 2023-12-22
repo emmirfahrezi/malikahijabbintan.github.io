@@ -1,0 +1,238 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3e337;
+}
+
+nav{
+    z-index: 2;
+}
+.brand{
+    font-family: 'Libre Bodoni', serif;
+    margin-bottom: -4px;
+}
+
+.nav-link.active{
+    font-weight: 700;
+}
+
+/* home */
+#beranda{
+    background-color: #f3e337;
+    height: 100vh;
+}
+
+.home-tagline h1{
+    color: rgb(10, 10, 10);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+}
+.home-tagline p{
+    color: rgb(11, 11, 11);
+    font-size: 16px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    line-height: 30px;
+    width: 80%;
+}
+
+/* tentang-kami */
+.about-img img{
+    width: 300px;
+}
+
+#tentang-kami{
+    background-color: #fffffb;
+    height: 100vh;
+}
+
+/* layanan kami */
+
+#layanan{
+    padding: 100px 0;
+}
+
+#layanan h2{
+    font-weight: 700;
+}
+
+.kartu-layanan{
+    width: 100%;
+    height: 313px;
+    border-radius: 10px;
+    padding: 42px;
+    box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.05);
+    background-color: #fffffb;
+
+    transition: all .2s ease-in;
+}
+
+.circle-icon{
+    width: 70px;
+    height: 70px;
+    background-color: #f3e337;
+    border-radius: 50%;
+
+    transition: all .1s ease-in;
+}
+
+.kartu-layanan h3{
+    font-size: 25px;
+    transition: all .2s ease-in;
+}
+
+.kartu-layanan p{
+    font-size: 15px;
+    transition: all .3s ease-in;
+}
+
+/* hover */
+
+.kartu-layanan:hover{
+    width: 100%;
+    height: 313px;
+    border-radius: 10px;
+    padding: 42px;
+    box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.05);
+    background-color: gray;
+    transition: all .2s ease-in;
+}
+
+
+.kartu-layanan:hover .circle-icon{
+    background-color: white;
+    transition: all .2s ease-in;
+}
+
+.kartu-layanan:hover h3{
+    font-size: 25px;
+    color: white;
+    transition: all .2s ease-in;
+}
+
+.kartu-layanan:hover p{
+    font-size: 15px;
+    color: white;
+    transition: all .2s ease-in;
+}
+
+/* produk */
+
+#produk{
+    background-color: #fffffb;
+    padding: 100px 0;
+}
+
+#produk h2{
+    font-weight: 700;
+}
+
+.card{
+    height: 440px;
+    width: 95%;
+    border: none;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .30);
+}
+
+.card-body h4{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: .8rem;
+}
+
+.card-body p{
+    color: gray;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card:hover{
+    background-color: #f3e337;
+}
+
+
+.card-ukuran{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 10px;
+    background-color: #fffffb;
+    border-radius: 5px;
+}
+
+.card-ukuran span{
+    font-weight: 500;
+    margin-top: 18px;
+}
+
+.card-ukuran p{
+    font-size: 13px;
+}
+
+/* kontak */
+
+#kontak{
+    background-color: #f3e337;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#kontak .overlay{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#kontak .container{
+    padding: 80px 0 50px 0;
+}
+
+#kontak h6{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #f3e337;
+    margin: 19px 0 14px 0;
+}
+
+.kontak i, a{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.kontak a{
+    margin-left: 16px;
+    width: 323px;
+    display: block;
+}
+
+.box-kontak{
+    width: 100%;
+    height: 430px;
+    background-color: #f3e337;
+    border-radius: 6px;
+    padding: 50px 46px;
+}
+
+.box-kontak h3{
+    color: #070707;
+    font-weight: 700;
+
+
+}
+
+#kontak h2{
+    font-weight: 700;
+    color: white;
+}
+
+.button-kontak{
+    width: 100%;
+    height: 75px;
+    background: gray;
+    border: none;
+    color: #fffffb;
+    font-weight: 500;
+}

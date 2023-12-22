@@ -1,0 +1,42 @@
+@media screen and (max-width : 922px) {
+
+}
+
+@media screen and (max-width : 576px) {
+    .home-tagline h1{
+        line-height: 50px;
+    }
+
+    .img-home{
+        width: 75%;
+        height: auto;
+    }
+
+    .about-img img{
+        width: 50%;
+        height: auto;
+    }
+
+    .about-img{
+        display: grid;
+        place-items: center;
+    }
+
+    .about-text{
+        display: grid;
+        place-items: center;
+        text-align: center;
+    }
+
+    .kartu-layanan{
+        margin: 16px 0;
+    }
+
+    iframe{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 350) {
+    
+}
