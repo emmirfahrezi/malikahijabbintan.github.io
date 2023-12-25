@@ -236,3 +236,16 @@ nav{
     color: #fffffb;
     font-weight: 500;
 }
+
+#footer{
+    background-color: rgb(100, 99, 99);
+    padding: 10px;
+}
+
+#footer .copy{
+    color: #ffff;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
