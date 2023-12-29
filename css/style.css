@@ -36,6 +36,11 @@ nav{
     width: 80%;
 }
 
+#beranda a:hover{
+    color: #f3e337;
+    background-color: #fffffb;
+}
+
 /* tentang-kami */
 .about-img img{
     width: 300px;
@@ -44,6 +49,50 @@ nav{
 #tentang-kami{
     background-color: #fffffb;
     height: 100vh;
+}
+
+.tampilan{
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0);
+    z-index: 9999;
+    transition: .8s;
+}
+
+.tampilan:target{
+    width: auto;
+    height: auto;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,.8);
+    text-align: center;
+    padding: 100px;
+    
+}
+
+.tampilan img{
+    max-height: 100%;
+    border-radius: 0;
+    box-shadow: 2px 2px 7px rgba(0,0,0,.5);
+}
+
+.tampilan:target img{
+    animation: ImageIn 1s;
+}
+
+.tampilan .close{
+    background-color: #eaeaea;
+    color: #312f2f;
+    top: 80px;
+    position: absolute;
+    
+}
+
+.tampilan:target .close{
+    animation: HeaderIn .5s .5s forwards;
 }
 
 /* layanan kami */
