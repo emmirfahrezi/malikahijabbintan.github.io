@@ -36,19 +36,10 @@ nav{
     width: 80%;
 }
 
+
 #beranda a:hover{
     color: #f3e337;
     background-color: #fffffb;
-}
-
-/* tentang-kami */
-.about-img img{
-    width: 300px;
-}
-
-#tentang-kami{
-    background-color: #fffffb;
-    height: 100vh;
 }
 
 .tampilan{
@@ -79,10 +70,6 @@ nav{
     box-shadow: 2px 2px 7px rgba(0,0,0,.5);
 }
 
-.tampilan:target img{
-    animation: ImageIn 1s;
-}
-
 .tampilan .close{
     background-color: #eaeaea;
     color: #312f2f;
@@ -91,9 +78,17 @@ nav{
     
 }
 
-.tampilan:target .close{
-    animation: HeaderIn .5s .5s forwards;
+/* tentang-kami */
+.about-img img{
+    width: 300px;
 }
+
+#tentang-kami{
+    background-color: #fffffb;
+    height: 100vh;
+}
+
+
 
 /* layanan kami */
 
